@@ -1,6 +1,6 @@
 # Nest Specs
 
-**NOTE**: This spec is in no way official and doesn't guarantee the presence or development of any mentioned features. This should be seen as a list of features I (@maximousblk) personally would like in Nest. I have not included many things here because either I don't know enough about them or I forgot.
+**NOTE**: This spec is in no way official (but kinda is now?) and doesn't guarantee the presence or development of any mentioned features. This should be seen as a list of features I (@maximousblk) personally would like in Nest. I have not included many things here because either I don't know enough about them or I forgot.
 
 ## Website
 
@@ -373,7 +373,7 @@ webhook.nest.land/gitlab/:user/:module # publish from gitlab
 
 > Why Tailwind and not vanilla CSS?
 
-Because CSS frameworks handle many edge cases and multiple browser specs on their own.
+Because CSS frameworks handle many edge cases and multiple browser specs on their own. [MDN browser compatibility report](https://mdn-web-dna.s3-us-west-2.amazonaws.com/MDN-Browser-Compatibility-Report-2020.pdf)
 
 > Why Chakra UI?
 
