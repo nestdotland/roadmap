@@ -397,7 +397,11 @@ Because - again, personal opinion - I want to be able to publish a varients of a
 
 Also there are only so many sensibly short combinations of alpha numeric characters that make sense as a name. And there is no way to publish scoped modules without a slash in the name and `@` is already used for version.
 
-This also helps with "name sqatting" and "typos quatting" which have been an issue with npm in the past. [Recent incident of typo squatting on npm](https://zdnet.com/article/four-npm-packages-found-uploading-user-details-on-a-github-page)
+This also helps with "name sqatting" and "typos quatting" which have been an issue with npm in the past.
+
+ref:
+- [Recent incident of typo squatting on npm](https://zdnet.com/article/four-npm-packages-found-uploading-user-details-on-a-github-page)
+- [strawpole for what to do with name squatting problem on deno.land/x](https://strawpoll.me/21059399/r)
 
 > Why is `/-/:module` a vanity route?
 
