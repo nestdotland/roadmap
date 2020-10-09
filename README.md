@@ -400,6 +400,7 @@ Also there are only so many sensibly short combinations of alpha numeric charact
 This also helps with "name sqatting" and "typos quatting" which have been an issue with npm in the past.
 
 ref:
+
 - [Recent incident of typo squatting on npm](https://zdnet.com/article/four-npm-packages-found-uploading-user-details-on-a-github-page)
 - [strawpole for what to do with name squatting problem on deno.land/x](https://strawpoll.me/21059399/r)
 
@@ -424,6 +425,21 @@ Nest CLI is the main utility you would use to create and publish modules. eggs o
 > Why Next.js API routes and not Vercel Functions
 
 Because Vercel Functions are proprietary and in case we lose the sponsorship or need to migrate to some other platform, we would have to rebuild the functions. Using Next.js would mean we can run those functions on any server.
+
+> Then why Vercel at all? Why not run it on our own server?
+
+Because with a great server comes great maintenance requirements 😛. I we choose to use a custom server we would have to:
+
+- Set up and maintain SSL
+- Setup autodeploys for all the branches and create a commpanion GitHub bot for it
+- Configure CDNs to properly cache requests
+- Set up load balancers and other (D)DOS protection
+- Deal with extra bandwidth costs in case of increased usage
+- And all of the above while paying for each of them in money and man-power
+
+The whole point of serverless is the is no dedicated server. It's a cluster of many servers that run your code on demand and scrap everything after that. Using Vercel save us from all of that headache and more.
+
+Moreover, if you use Next.js, Vercel automatically pushes certain security patches. ref: [GHSA-X56P-C8CG-Q435](https://github.com/advisories/GHSA-x56p-c8cg-q435)
 
 > What is that `.nest` directory? what happened to the whole "no package.json" thing.
 
