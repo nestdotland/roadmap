@@ -373,7 +373,9 @@ webhook.nest.land/gitlab/:user/:module # publish from gitlab
 
 > Why Tailwind and not vanilla CSS?
 
-Because CSS frameworks handle many edge cases and multiple browser specs on their own. [MDN browser compatibility report](https://mdn-web-dna.s3-us-west-2.amazonaws.com/MDN-Browser-Compatibility-Report-2020.pdf)
+Because CSS frameworks handle many edge cases and multiple browser specs on their own. I don't think it's worth the effort to do the redundant work that these frameworks have already done.
+
+[MDN browser compatibility report](https://mdn-web-dna.s3-us-west-2.amazonaws.com/MDN-Browser-Compatibility-Report-2020.pdf)
 
 > Why Chakra UI?
 
@@ -428,16 +430,16 @@ Because Vercel Functions are proprietary and in case we lose the sponsorship or 
 
 > Then why Vercel at all? Why not run it on our own server?
 
-Because with a great server comes great maintenance requirements 😛. I we choose to use a custom server we would have to:
+Because with a great server comes great maintenance requirements 😛. If we choose to use a custom server we would have to:
 
 - Set up and maintain SSL
-- Setup autodeploys for all the branches and create a commpanion GitHub bot for it
+- Setup auto-deployment for all the branches and create a companion GitHub bot for it
 - Configure CDNs to properly cache requests
 - Set up load balancers and other (D)DOS protection
 - Deal with extra bandwidth costs in case of increased usage
 - And all of the above while paying for each of them in money and man-power
 
-The whole point of serverless is the is no dedicated server. It's a cluster of many servers that run your code on demand and scrap everything after that. Using Vercel save us from all of that headache and more.
+The whole point of serverless is the is no dedicated server. It's a cluster of many servers that run your code on-demand and scrap everything after that. Using Vercel save us from all of that headache and more.
 
 Moreover, if you use Next.js, Vercel automatically pushes certain security patches. ref: [GHSA-X56P-C8CG-Q435](https://github.com/advisories/GHSA-x56p-c8cg-q435)
 
