@@ -455,9 +455,9 @@ Simply put, REST is more accessible to beginners that GraphQL. Having more optio
 
 I don't know what to call it. It is just a function that checks if the client is a browser and sends raw data or webpage accordingly. similar to what `deno.land/x` does.
 
-> why "Nest Land" as the name and not "nestdotland"?
+> why "Nest" as the name and not "nestdotland"?
 
-I don't think punctuation should be part of the name. And the name "Nest - Land" is simpler to use than "Nest - Dot - Land".
+I don't think punctuation should be part of the name. And the name "Nest" is simpler to use than "Nest - Dot - Land". This won't be a trademark problem as we are not in the same industry and Google's Nest products.
 
 #### Authentication
 
