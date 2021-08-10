@@ -11,7 +11,6 @@ Roadmap for upcoming features.
 | gql       | GraphQL API                             |
 | api       | Rest APIs and other functions           |
 | nest      | Nest CLI                                |
-| eggs      | Nest Package Manager (NPM?!)            |
+| eggs      | Nest's Package Manager (NPM?!)            |
 | docs      | Documentation                           |
 | dmca      | DMCA requests                           |
-
