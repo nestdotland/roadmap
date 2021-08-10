@@ -8,10 +8,10 @@ Roadmap for upcoming features.
 | --------- | --------------------------------------- |
 | nest.land | Website front-end                       |
 | cdn       | Gateway to arweave and static files cdn |
-| api       | GraphQL API                             |
-| proxy     | Serverless function for "magic" link    |
-| cli       | Nest CLI (and webview GUI)              |
-| eggs      | Nest's official Package manager         |
+| gql       | GraphQL API                             |
+| api       | Rest APIs and other functions           |
+| cli       | Nest CLI                                |
+| eggs      | Nest Package Manager (NPM?!)            |
 | docs      | Documentation                           |
 | dmca      | DMCA requests                           |
-| lambda    | Serverless functions                    |
+
