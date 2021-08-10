@@ -10,7 +10,7 @@ Roadmap for upcoming features.
 | cdn       | Gateway to arweave and static files cdn |
 | gql       | GraphQL API                             |
 | api       | Rest APIs and other functions           |
-| cli       | Nest CLI                                |
+| nest      | Nest CLI                                |
 | eggs      | Nest Package Manager (NPM?!)            |
 | docs      | Documentation                           |
 | dmca      | DMCA requests                           |
