@@ -6,11 +6,9 @@ Roadmap for upcoming features.
 
 | name      | description                             |
 | --------- | --------------------------------------- |
-| nest.land | Website front-end                       |
-| cdn       | Gateway to arweave and static files cdn |
+| nest.land | Website                                 |
+| cdn       | Gateway to arweave                      |
 | gql       | GraphQL API                             |
-| api       | Rest APIs and other functions           |
+| api       | REST API and other utility endpoints    |
 | nest      | Nest CLI                                |
-| eggs      | Nest's Package Manager (NPM?!)            |
-| docs      | Documentation                           |
-| dmca      | DMCA requests                           |
+| eggs      | ~~Nest~~ Deno's Package Manager         |
