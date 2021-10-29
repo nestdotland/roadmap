@@ -11,4 +11,4 @@ Roadmap for upcoming features.
 | gql       | GraphQL API                             |
 | api       | REST API and other utility endpoints    |
 | nest      | Nest CLI                                |
-| eggs      | ~~Nest~~ Deno's Package Manager         |
+| eggs      | ~~Nest~~ Deno's Module Manager         |
